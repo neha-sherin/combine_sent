@@ -1,0 +1,2 @@
+A simple implementation to bring continuity between sentences produced by TTS. The FastSpeech2 implementation for TTS is taken from https://github.com/ming024/FastSpeech2. <br>
+The flow is brought by fitting a Gaussian curve over pitch and energy predictions of the generated speech near the intersection of two sentences.
